@@ -12,7 +12,7 @@ decode: $(DOBJS)
 all:      decode
 
 # list of file dependencies
-decode.o:           decode.cpp BitStreams.h LinkedBinaryTree.h VariousExceptions.h
+decode.o:           decode.cpp BitStreams.h LinkedBinaryTree.h
 BitStreams.o:       BitStreams.h BitStreams.cpp
 
 # the following rule is used to compile .cpp files to .o
